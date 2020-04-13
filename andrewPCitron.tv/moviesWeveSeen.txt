@@ -1,0 +1,8 @@
+The Godfather
+The Dark Knight
+Reversal of Fortune
+// add more movies here.  you can build this list over time.  use the name specified in tvguide.com.  that name shows up in the resulting spreadsheet
+
+// movies I never want to see
+The Spanish Prisoner
+Conviction
