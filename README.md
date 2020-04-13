@@ -15,7 +15,7 @@ https://mobilelistings.tvguide.com/Listingsweb/ws/rest/serviceproviders/ZIPCODE/
       In TvGuide.java change thisIsAChannelWeGet() to match the channels in your area.
       Best would be to somehow figure this out dynamically, but I don't work for tvguide.com so I don't know how they're figuring that out.
   
-It would be nice if this was implemented by a service you log into so it could remember your preferences instead of storing the info files and code
+It would be nice if this was implemented by a service you log into so it could remember your preferences instead of storing the info in files and code
   
 The output of this program is a comma separated vector (.csv) file that can be understood by any spreadsheet or widget that understands .csv files.  The spreadsheet is opened if you have defined a program in tvlistings.Properies that can open .csv files
  
