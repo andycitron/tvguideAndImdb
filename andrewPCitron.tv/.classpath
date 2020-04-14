@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry kind="src" path=""/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="C:/Users/andyc/Documents/java/joda-time-2.9.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/andyc/Documents/tv/uVerse/FromIpad/sqlite-jdbc-3.21.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/andyc/IBM/rationalsdp/workspaceSpectrumRAD/json-simple-1.1.1.jar"/>
-	<classpathentry kind="output" path=""/>
-</classpath>
