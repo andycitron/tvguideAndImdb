@@ -12,10 +12,13 @@ Alternatively, you can fetch this url to see the json that includes your provide
 https://mobilelistings.tvguide.com/Listingsweb/ws/rest/serviceproviders/ZIPCODE/zipCode?formattype=json
 
 3) I can't figure out which channels you get for your provider and area.  I can only figure out my own channels.  
-      In TvGuide.java change thisIsAChannelWeGet() to match the channels in your area.
-      Best would be to somehow figure this out dynamically, but I don't work for tvguide.com so I don't know how they're figuring that out.
+      In TvGuide.java change thisIsAChannelWeGet() to match the channels from your provider in your area.
+      Best would be to somehow figure this out dynamically, but I don't work for tvguide.com or your tv service provider so I don't know how they're figuring that out. 
+      
+4) The program is dependent on html pages from tvguide.com and IMDB.com.  If that html changes, this code can break and would need to be updated.  
+      A lot of the information comes from json on those websites.  That json is less likely to change in an incompatible manner.       
   
-It would be nice if this was implemented by a service you log into so it could remember your preferences instead of storing the info in files and code
+It would be nice if this was implemented by a service you log into so it could remember your preferences instead of storing the info in files and code.  For example this would be a useful function for tvguide.com to use on their site.
   
 The output of this program is a comma separated vector (.csv) file that can be understood by any spreadsheet or widget that understands .csv files.  The spreadsheet is opened if you have defined a program in tvlistings.Properies that can open .csv files
  
